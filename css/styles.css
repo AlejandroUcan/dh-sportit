@@ -1,0 +1,328 @@
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.barra-navegacion {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.secciones{
+    width: 35%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22.89px;
+}
+
+.section-choosed {
+    color: #242E5299;
+
+}
+
+.contact-button {
+    background-color: #8B48BF;
+    padding: 1em 2em;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+
+.nav-pointer {
+    position: relative;
+    bottom: 35px;
+    left: 63.7%;
+}
+
+section {
+    padding: 3em 0;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    margin: 2em 6em;
+}
+
+.banner-item {
+    width: 45%;
+}
+
+.banner-img {
+    width: 95%;
+}
+
+.vertical-banner {
+    width: 65%;
+    margin: 0 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+}
+
+.banner-title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57.3px;
+    letter-spacing: -0.035em;
+    color: #232C50;
+}
+
+.banner-subtitle {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+}
+
+.banner-button {
+    background-color: #8B48BF;
+    padding: 1em 2em;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    text-align: center;
+    width: 40%;
+}
+
+.pros {
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12em;
+    align-items: center;
+}
+
+.pros-card {
+    width: 32%;
+    padding: 0 6em;
+}
+
+.pros-encabezado {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+}
+
+.pros-descripcion {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FAFAFA;
+}
+
+.benefit {
+    display: flex;
+    width: 40%;
+    padding: 2em;
+}
+
+.benefit-button {
+    background-color: #8B48BF;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+
+.benefit-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+
+.benefit-description {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #B3B2B7;
+}
+
+.best-players {
+    text-align: center;
+}
+
+.bp-title {
+    font-size: 39.21px;
+    font-weight: 700;
+    line-height: 61.41px;
+    letter-spacing: -0.01em;
+    text-align: center; 
+    color: #242E53;
+}
+
+.players {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 25px;
+    margin: 15px;
+}
+
+.player-photo {
+    position: relative;
+    top: 50px;
+}
+
+.player-info {
+    background-color: #FAFAFA;
+    padding: 4em 2em 2em 2em;
+}
+
+.player-name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    color: #3F4868;
+}
+
+.player-description{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: #B9B9C1;
+}
+
+.more-players {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-more {
+    background-color: #8B48BFB2;
+    border-radius: 50px;
+    padding: 10px 25px;
+    color: #8B48BFB2;
+    font-size: 13.18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    align-self: center;
+}
+
+.pointer {
+    position: relative;
+    bottom: 20px;
+    left: 5px;
+}
+
+.best-teams {
+    background-color: rgba(139, 72, 191, 1);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bt-encabezado {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47.84px;
+    width: 60%;
+}
+
+.bt-got {
+    display: flex;
+    align-items: center;
+}
+
+.bt-button {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(139, 72, 191, 1);
+    padding: 15px 30px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    font-size: 13.18px;
+    font-weight: 500;
+    line-height: 19.26px;
+}
+
+
+footer {
+    padding: 3em;
+    background-color: rgba(30, 30, 38, 1);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list-options {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.38px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.inbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+}
+
+.inbox-input {
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+
+.inbox-button {
+    background-color: rgba(139, 72, 191, 1);
+    border-radius: 50px;
+    padding: 10px 18px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+
+.copyright {
+    font-size: 12.5px;
+    font-weight: 500;
+    line-height: 18.26px;
+    color: rgba(140, 140, 148, 1);
+    text-align: right;
+}
+
+/*1078 - 592 */
