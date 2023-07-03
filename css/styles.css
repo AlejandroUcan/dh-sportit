@@ -1,60 +1,21 @@
 body {
     font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
 }
 
 .barra-navegacion {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    margin: 2em;
 }
 
-.secciones{
-    width: 35%;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 22.89px;
-}
-
-.section-choosed {
-    color: #242E5299;
-
-}
-
-.contact-button {
-    background-color: #8B48BF;
-    padding: 1em 2em;
-    border-radius: 50px;
-    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 19px;
-    letter-spacing: 0em;
-    color: #FFFFFF;
-}
-
-.nav-pointer {
-    position: relative;
-    bottom: 35px;
-    left: 63.7%;
-}
-
-section {
-    padding: 3em 0;
+.secciones, .contact-button, .nav-pointer {
+    display: none;
 }
 
 .banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 2em;
-    margin: 2em 6em;
-}
-
-.banner-item {
-    width: 45%;
 }
 
 .banner-img {
@@ -62,8 +23,6 @@ section {
 }
 
 .vertical-banner {
-    width: 65%;
-    margin: 0 0 0 auto;
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -79,9 +38,9 @@ section {
 }
 
 .banner-subtitle {
-    font-size: 17px;
+    font-size: 16.56px;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 26.01px;
     letter-spacing: 0em;
 }
 
@@ -89,57 +48,50 @@ section {
     background-color: #8B48BF;
     padding: 1em 2em;
     border-radius: 50px;
-    font-size: 13px;
+    font-size: 13.18px;
     font-weight: 500;
-    line-height: 19px;
+    line-height: 19.26px;
     letter-spacing: 0em;
     color: #FFFFFF;
     text-align: center;
-    width: 40%;
+    width: 20%;
 }
 
 .pros {
-    background-color: #8B48BF;
+    background-color: #3CDDF3;
     color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 12em;
-    align-items: center;
 }
 
 .pros-card {
-    width: 32%;
-    padding: 0 6em;
+    padding: 1em;
 }
 
 .pros-encabezado {
     font-size: 36px;
     font-weight: 700;
-    line-height: 41px;
+    line-height: 41.26px;
     letter-spacing: 0em;
 }
 
 .pros-descripcion {
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 24.18px;
     letter-spacing: 0em;
 }
 
 .benefits {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     background-color: #FAFAFA;
 }
 
 .benefit {
-    display: flex;
-    width: 40%;
-    padding: 2em;
+    padding: 0 0 0 2em;
 }
 
 .benefit-button {
+    width: 5%;
     background-color: #8B48BF;
     padding: 10px 30px;
     border-radius: 30px;
@@ -149,8 +101,8 @@ section {
     line-height: 23px;
     letter-spacing: 0em;
     position: relative;
-    bottom: 10px;
-    right: 10px;
+    top: 60px;
+    right: 16px;
 }
 
 .benefit-title {
@@ -158,7 +110,9 @@ section {
     font-weight: 700;
     line-height: 23px;
     letter-spacing: -0.015em;
-    text-align: left;
+    background-color: rgba(139, 72, 191, 0.3);
+    color: #323851;
+    padding: 10px 10px 10px 5em;
 }
 
 .benefit-description {
@@ -168,6 +122,7 @@ section {
     letter-spacing: -0.01em;
     text-align: left;
     color: #B3B2B7;
+    padding: 0 1em;
 }
 
 .best-players {
@@ -179,14 +134,14 @@ section {
     font-weight: 700;
     line-height: 61.41px;
     letter-spacing: -0.01em;
-    text-align: center; 
     color: #242E53;
 }
 
 .players {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
-    padding: 0 25px;
+    padding: 0 5px;
     margin: 15px;
 }
 
@@ -222,14 +177,17 @@ section {
 }
 
 .btn-more {
-    background-color: #8B48BFB2;
+    background-color: #8B48BF;
     border-radius: 50px;
     padding: 10px 25px;
-    color: #8B48BFB2;
     font-size: 13.18px;
     font-weight: 400;
     color: #FFFFFF;
     align-self: center;
+}
+
+.btn-more:hover {
+    background-color: #8B48BFB2;
 }
 
 .pointer {
@@ -239,27 +197,27 @@ section {
 }
 
 .best-teams {
-    background-color: rgba(139, 72, 191, 1);
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
+    background-color: #3CDDF3;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1em 2em;
 }
 
 .bt-encabezado {
     font-size: 40px;
     font-weight: 700;
     line-height: 47.84px;
-    width: 60%;
 }
 
 .bt-got {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 .bt-button {
-    background-color: rgba(255, 255, 255, 1);
-    color: rgba(139, 72, 191, 1);
+    background-color: #232C50;
+    color: #FFFFFF;
     padding: 15px 30px;
     border-radius: 50px;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
@@ -268,12 +226,16 @@ section {
     line-height: 19.26px;
 }
 
-
 footer {
+    background-color: #1E1E26;
+    padding: 2em 1em;
+}
+
+.pie-pagina {
     padding: 3em;
-    background-color: rgba(30, 30, 38, 1);
-    color: white;
+    color: #FFFFFF;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
 }
 
@@ -283,46 +245,222 @@ footer {
     justify-content: space-between;
 }
 
+.icon-footer {
+    align-self: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0 4em 0;
+}
+
 .list-options {
-    list-style: none;
+    width: 95%;
     font-size: 16px;
     font-weight: 400;
     line-height: 23.38px;
-    color: rgba(255, 255, 255, 1);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+
+.list-options ul {
+    list-style: none;
 }
 
 .inbox {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 8vh;
 }
 
 .inbox-input {
     border-radius: 50px;
     padding: 10px;
-    font-size: 13px;
+    font-size: 13.18px;
     font-weight: 600;
-    line-height: 19px;
+    line-height: 19.26px;
     letter-spacing: 0em;
+    color: #A0A0A0;
+    width: 75%;
 }
 
 .inbox-button {
-    background-color: rgba(139, 72, 191, 1);
+    background-color: #8B48BF;
     border-radius: 50px;
     padding: 10px 18px;
-    font-size: 13px;
+    font-size: 13.18px;
     font-weight: 500;
-    line-height: 19px;
+    line-height: 19.26px;
     letter-spacing: 0em;
+    color: #FFFFFF;
 }
 
 .copyright {
     font-size: 12.5px;
     font-weight: 500;
     line-height: 18.26px;
-    color: rgba(140, 140, 148, 1);
-    text-align: right;
+    color: #8C8C94;
+    text-align: center;
 }
 
 /*1078 - 592 */
+
+@media (min-width: 481px) {
+    /*Tablet Version*/
+    .benefit-button {
+        width: 2%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1440px) {
+    .barra-navegacion {
+        justify-content: space-evenly;
+        margin: 0;
+    }
+    .menu {
+        display: none;
+    }
+
+    .secciones, .contact-button, .nav-pointer {
+        display: block;
+    }
+
+    .secciones {
+        width: 45%;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 22.89px;
+    }
+
+    .seccion:hover {
+        color: #242E5299;
+    }
+      
+    .contact-button {
+        background-color: #8B48BF;
+        padding: 1em 2em;
+        border-radius: 50px;
+        box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        color: #FFFFFF;
+    }
+    
+    .nav-pointer {
+        position: relative;
+        bottom: 38px;
+        left: 67.4%;
+    }
+
+    .banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2em;
+        margin: 2em 6em;
+    }
+    
+    .banner-item {
+        width: 40%;
+    }
+
+    .vertical-banner {
+        width: 65%;
+        margin: 0 0 0 auto;
+    }
+    
+    .pros {
+        background-color: #8B48BF;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 12em;
+        align-items: center;
+    }
+
+    .pros-card {
+        width: 32%;
+        padding: 0 2em;
+    }
+
+    .benefits {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .benefit {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        padding: 1em 1em 1em 4em;
+    }
+
+    .benefit-button {
+        top: 45px;
+        right: 35px;
+    }
+    
+    .benefit-title {
+        background-color: #FFFFFF;
+        padding: 0 0 0 4em;
+    }
+
+    .benefit-description {
+        padding: 0 0 0 4em;
+    }
+
+    .players {
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0 25px;
+        margin: 15px;
+    }
+
+    .best-teams {
+        background-color: #8B48BF;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .bt-encabezado {
+        width: 60%;
+    }
+
+    .bt-button {
+        background-color: #FFFFFF;
+        color: #8B48BF;
+    }
+
+    .pie-pagina {
+        flex-direction: row-reverse;
+    }
+
+    .vertical-container {
+        flex-direction: column-reverse;
+    }
+
+    .list-options {
+        width: 40%;
+        justify-content: space-evenly;
+    }
+
+    .inbox {
+        align-self: flex-start;
+    }
+
+    .copyright {
+        margin: 0 4em 0 0;
+        padding: 0 8em 0 0;
+        text-align: right;
+    }
+}
